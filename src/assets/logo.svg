@@ -1,0 +1,52 @@
+<svg
+  width="80"
+  height="80"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-label="Image Enhancer Logo"
+>
+  <defs>
+    <!-- A vibrant, shiny gradient representing transformation and quality -->
+    <linearGradient id="shinyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #818cf8" />
+      <stop offset="50%" style="stop-color: #a78bfa" />
+      <stop offset="100%" style="stop-color: #c084fc" />
+    </linearGradient>
+  </defs>
+
+  <!-- The main logo group. It's centered and slightly rotated for a more dynamic feel.
+        It consists of 6 "blades" that form the shutter/sparkle shape.
+  -->
+  <g transform="translate(50 50) rotate(15)">
+    <path
+        transform="rotate(0)"
+        d="M 0 -48 L 25 -25 L 0 -22 L -25 -25 Z"
+        fill="url(#shinyGradient)"
+    />
+    <path
+        transform="rotate(60)"
+        d="M 0 -48 L 25 -25 L 0 -22 L -25 -25 Z"
+        fill="url(#shinyGradient)"
+    />
+    <path
+        transform="rotate(120)"
+        d="M 0 -48 L 25 -25 L 0 -22 L -25 -25 Z"
+        fill="url(#shinyGradient)"
+    />
+    <path
+        transform="rotate(180)"
+        d="M 0 -48 L 25 -25 L 0 -22 L -25 -25 Z"
+        fill="url(#shinyGradient)"
+    />
+    <path
+        transform="rotate(240)"
+        d="M 0 -48 L 25 -25 L 0 -22 L -25 -25 Z"
+        fill="url(#shinyGradient)"
+    />
+    <path
+        transform="rotate(300)"
+        d="M 0 -48 L 25 -25 L 0 -22 L -25 -25 Z"
+        fill="url(#shinyGradient)"
+    />
+  </g>
+</svg>
